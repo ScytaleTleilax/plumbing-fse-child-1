@@ -1,0 +1,136 @@
+<? php ?>
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"20parts/header.htmlpx","left":"20px","top":"20px","bottom":"15px"}}},"backgroundColor":"Background","className":"has-primary-background-color","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-primary-background-color has-background-background-color has-background" style="padding-top:20px;padding-right:20parts/header.htmlpx;padding-bottom:15px;padding-left:20px">
+    <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+    <div class="wp-block-group alignwide">
+        <!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+        <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
+            <div class="wp-block-group"><!-- wp:site-logo {"width":45,"shouldSyncIcon":true} /-->
+
+                <!-- wp:site-title /-->
+            </div>
+            <!-- /wp:group -->
+
+            <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+            <div class="wp-block-group">
+                <!-- wp:navigation {"metadata":{"ignoredHookedBlocks":["woocommerce/mini-cart"]}} -->
+                <!-- wp:page-list /-->
+                <!-- /wp:navigation -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","right":"20px","bottom":"0px","left":"20px"}}},"backgroundColor":"black","className":"has-secondary-background-color","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-secondary-background-color has-black-background-color has-background" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">
+    <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+    <div class="wp-block-group alignwide">
+        <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
+        <div class="wp-block-columns"><!-- wp:column -->
+            <div class="wp-block-column">
+                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+                <div class="wp-block-group" style="padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0;padding-left:var(--wp--preset--spacing--40)">
+                    <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"12px","bottom":"10px","left":"12px"}},"border":{"radius":"5px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group has-primary-background-color has-background" style="border-radius:5px;padding-top:10px;padding-right:12px;padding-bottom:10px;padding-left:12px">
+                        <!-- wp:image {"id":81,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+                        <figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/foo-mail.png" alt="" class="wp-image-81" /></figure>
+                        <!-- /wp:image -->
+                    </div>
+                    <!-- /wp:group -->
+
+                    <!-- wp:group {"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group">
+                        <!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
+                        <h5 class="wp-block-heading has-primary-color has-text-color has-link-color"><strong>Cereti o
+                                oferta</strong></h5>
+                        <!-- /wp:heading -->
+
+                        <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"5px"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+                        <p class="has-white-color has-text-color has-link-color" style="margin-top:5px">
+                        <p style="margin-top:5px;">
+                            <a class="has-base-color" href="mailto:example@example.com">office@amiris.ro</a>
+                        </p>
+                        </p>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:column -->
+
+            <!-- wp:column -->
+            <div class="wp-block-column">
+                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|50"}},"backgroundColor":"white","className":"has-secondary-background-color","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+                <div class="wp-block-group has-secondary-background-color has-white-background-color has-background" style="padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0;padding-left:var(--wp--preset--spacing--40)">
+                    <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"12px","bottom":"10px","left":"12px"}},"border":{"radius":"5px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group has-primary-background-color has-background" style="border-radius:5px;padding-top:10px;padding-right:12px;padding-bottom:10px;padding-left:12px">
+                        <!-- wp:image {"id":408,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+                        <figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/foo-pin.png" alt="" class="wp-image-408" /></figure>
+                        <!-- /wp:image -->
+                    </div>
+                    <!-- /wp:group -->
+
+                    <!-- wp:group {"className":"has-secondary-background-color","layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group has-secondary-background-color">
+                        <!-- wp:heading {"level":5,"textColor":"primary","className":"wp-block-heading"} -->
+                        <h5 class="wp-block-heading has-primary-color has-text-color"><strong>Locatie</strong></h5>
+                        <!-- /wp:heading -->
+
+                        <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"5px"}}},"textColor":"body-text"} -->
+                        <p class="has-body-text-color has-text-color" style="margin-top:5px">
+                        <p class="has-secondary-background-color has-base-color" style="margin-top:5px">Strada Carierei
+                            nr.160 , Brasov</p>
+                        </p>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:column -->
+
+            <!-- wp:column {"className":"has-primary-background-color"} -->
+            <div class="wp-block-column has-primary-background-color">
+                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+                <div class="wp-block-group" style="padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0;padding-left:var(--wp--preset--spacing--40)">
+                    <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"12px","bottom":"10px","left":"12px"}},"border":{"radius":"5px"}},"backgroundColor":"primary","className":"has-secondary-background-color","layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group has-secondary-background-color has-primary-background-color has-background" style="border-radius:5px;padding-top:10px;padding-right:12px;padding-bottom:10px;padding-left:12px">
+                        <!-- wp:image {"id":409,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+                        <figure class="wp-block-image aligncenter size-full">
+                            <img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/foo-phone.png" alt="" class="wp-image-409" />
+                        </figure>
+                        <!-- /wp:image -->
+                    </div>
+                    <!-- /wp:group -->
+
+                    <!-- wp:group {"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group">
+                        <!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","className":"has-secondary-color"} -->
+                        <h5 class="wp-block-heading has-secondary-color has-primary-color has-text-color has-link-color">
+                            <strong>Sunati-ne!</strong>
+                        </h5>
+                        <!-- /wp:heading -->
+
+                        <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"5px"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+                        <p class="has-white-color has-text-color has-link-color" style="margin-top:5px">
+                        <p style="margin-top:5px"><a class="has-secondary-color" href="tel:+40720987937" data-type="tel" data-id="tel:">+00-123-456-78</a></p>
+                        </p>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:column -->
+        </div>
+        <!-- /wp:columns -->
+    </div>
+    <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+<php? />
