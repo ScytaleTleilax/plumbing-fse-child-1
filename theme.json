@@ -5,32 +5,32 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#bec7ce",
+					"color": "#F5F5F5",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#30344d",
+					"color": "#34414a",
 					"name": "Body Text",
 					"slug": "body-text"
 				},
 				{
-					"color": "#9ea7b8",
+					"color": "#D9D9D9",
 					"name": "Section Background",
 					"slug": "section-bg"
 				},
 				{
-					"color": "#2c3243",
+					"color": "#555555",
 					"name": "Headings",
 					"slug": "heading"
 				},
 				{
-					"color": "#e1e7f0",
+					"color": "#2a324b",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#bd1800",
+					"color": "#CCCCCC",
 					"name": "Secondary",
 					"slug": "secondary"
 				}
