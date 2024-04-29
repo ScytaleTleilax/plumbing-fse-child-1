@@ -60,7 +60,39 @@ if (!function_exists('plumbing_fse_child_enqueue_scripts')) :
         wp_enqueue_script('plumbing_fse_child-scripts');
     }
 
-    // Hook the combined function to the appropriate action
 endif;
 
 add_action('wp_enqueue_scripts', 'plumbing_fse_child_enqueue_scripts');
+
+
+
+// Inserare in db categorii produse
+function create_product_category($category_name)
+{
+    $term = wp_insert_term(
+        $category_name,   // nume
+        'product_cat',    // taxonomie (categorii produse)
+        array(
+            'description' => '',  // descriere
+            'slug' => sanitize_title($category_name)  // slug categorie
+        )
+    );
+    if (is_wp_error($term)) {
+        echo 'Eroare creare categorie: ' . $category_name . '. Error: ' . $term->get_error_message();
+    } else {
+        echo 'Categorie produs inregistrata cu succes: ' . $category_name . '<br>';
+    }
+}
+
+$categories = array(
+    'centrale-termice-in-condensare-BAXI',
+    'boilere',
+    'radiatoare',
+    'incalzire-in-pardoseala',
+);
+
+foreach ($categories as $category) {
+    create_product_category($category);
+}
+
+add_action('after_setup_theme', 'create_product_category');
